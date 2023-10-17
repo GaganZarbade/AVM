@@ -1,0 +1,71 @@
+{% extends 'default.html' %}
+
+{% block content %}
+
+<section>
+	<div class=" mx-[150px] my-[100px] ">
+		<div class="grid grid-cols-3 gap-4">
+			<div class="grid grid-cols-2 border-2 rounded-lg p-3 bg-white">
+				<div class="text-xl font-bold">Today</div>
+				<div  class="text-xl text-right">0</div>
+			</div>
+			<div  class="grid grid-cols-2  border-2 rounded-lg p-3 bg-white">
+				<div class="text-xl font-bold">Weekly</div>
+				<div  class="text-xl text-right">0</div>
+			</div>
+			<div class="grid grid-cols-2 border-2 rounded-lg p-3 bg-white">
+				<div class="text-xl font-bold ">Monthly</div>
+				<div  class="text-xl text-right">0</div>
+			</div> 
+		</div>
+		<div class="grid grid-cols-2 my-[20px]">
+			<div class="text-3xl font-bold">Institutes</div>
+			<div class="grid grid-cols-2 my-[10px]">
+				<div class=""><input class="w-[330px] h-[40px] border-2 rounded-lg border-blue-100 px-[5px]" type="search" name="search" placeholder="search"></div>
+				<div class="text-right"><a href="/mainapp/addLeads"><button class="w-[180px] h-[40px] border-2 border-blue-500 bg-blue-500 text-white text-xl rounded-lg">&nbsp&nbsp<font class="text-2xl">+</font> Add Institute</button></a> </div>
+			</div>
+		</div>
+
+		<div class="border-2 p-[20px] bg-white">
+			<div class="text-2xl font-bold">Institute Lists</div>
+		</div>
+				<div class="mt-[30px] border-2 p-[20px] bg-white">
+				<table id="" class="display" style="width:100%">
+			            <thead>
+				            <tr>
+				            	<th></th>
+				                <th>Institute Name</th>
+				                <th>Institute Location</th>
+				                <th>Institute Address</th>
+				                <th>CRICOS Code</th>
+				                <th></th>
+				                <th>Action</th>
+				            </tr>
+				        </thead>
+				        <tbody>
+				            <tr>
+				            	<td><input type="checkbox" name="check"></td>
+				                <td>Tiger Nixon</td>
+				                <td>System Architect</td>
+				                <td>Edinburgh</td>
+				                <td>61</td>
+				                <td>2011-04-25</td>
+				                <td>$320,800</td>
+				            </tr>
+				            <tr>
+				            	<td><input type="checkbox" name="check"></td>
+				                <td>JP Duminy</td>
+				                <td>System Engineer</td>
+				                <td>Capetown</td>
+				                <td>54</td>
+				                <td>2009-08-14</td>
+				                <td>$250,800</td>
+				            </tr>
+					    </tbody>
+			    </table>
+			</div>
+	</div>
+
+</section>
+
+{% endblock%}

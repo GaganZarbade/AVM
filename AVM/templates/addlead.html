@@ -1,0 +1,126 @@
+{% extends 'default.html' %}
+
+{% block content %}
+<section>
+	<div class="px-[200px] py-[100px]">
+	    <div>Lead > <font class="text-gray-500">Add Leads</font></div>
+	    <div class="grid grid-cols-2 border-2 bg-white p-[20px] my-[30px]">
+	    	<div>
+	    		<div class="text-2xl">Lead Owner</div>
+	    		<div class="my-[10px]">
+	    			<select class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 ">
+		    			<option>SELECT OWNER</option>
+		    			<option>Gagan</option>
+		    			<option>Ankit</option>
+		    			<option>Satyam</option>
+	    			</select>
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">TITLE</div>
+	    		<div class="my-[10px]">
+	    			<select class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300">
+		    			<option>Mr</option>
+		    			<option>Mrs</option>
+		    			<option></option>
+	    			</select>
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">FIRST NAME</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="fname" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter First Name">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">LAST NAME</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="lname" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Last Name">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">EMAIL</div>
+	    		<div class="my-[10px]">
+	    			<input type="email" name="email" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Email">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">PHONE</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="phone" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Phone Number">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">VISA EXPIRY DATE</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="ve" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Visa Expiry Date">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">VISA PREFERENCE</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="vp" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Visa Preference Date">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">LEAD SOURCE</div>
+	    		<div class="my-[10px]">
+	    			<select class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300">
+		    			<option>Google</option>
+		    			<option>Facebook</option>
+		    			<option>Cold Call</option>
+	    			</select>
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="text-2xl">RATING</div>
+	    		<div class="my-[10px]">
+	    			<select class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300">
+		    			<option>Hot</option>
+		    			<option>Low</option>
+		    			<option>Medium</option>
+	    			</select>
+	    		</div>
+	    	</div>
+
+	    	<div class="text-2xl">ADDRESS</div>
+	    	<div></div>
+
+	    	<div>
+	    		<div>ADDRESS</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="add" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Address">
+				</div>
+	    	</div>
+	    	<div>
+	    		<div>City</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="c" class="w-[230px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter City">
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div>STATE</div>
+	    		<div class="my-[10px]">
+	    			<input type="text" name="s" class="w-[430px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter State">
+				</div>
+	    	</div>
+	    	<div>
+	    		<div class="flex">
+	    			<div>
+	    				<div>POSTAL CODE</div>
+		    			<div class="my-[10px]">
+		    				<input type="text" name="P" class="w-[200px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Postal Code">
+		    			</div>
+	    			</div>
+	    			<div class="mx-[20px]">
+	    				<div>COUNTRY</div>
+		    			<div class="my-[10px]">
+		    				<input type="text" name="P" class="w-[200px] h-[40px] rounded-lg border-2 border-gray-300 px-[10px]" placeholder="Enter Country">
+		    			</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+</section>
+{% endblock %}

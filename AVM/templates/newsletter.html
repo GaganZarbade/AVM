@@ -1,0 +1,23 @@
+{% extends 'default.html' %}
+
+{% block content %}
+<section>
+		<div class=" mx-[200px] my-[100px] bg-white border-2 rounded-lg p-[20px]">
+			<div class="mx-[10px]">
+				<div class="text-3xl my-[10px]">From : <font class="text-gray-400">info@avmglobals.com.au</font></div>
+				<hr class="my-[10px]">
+				<div class="text-3xl my-[10px]">To : <font class="text-gray-400"> <input type="checkbox" name=""> Migrations  <input type="checkbox" name=""> Addmissions  <input type="checkbox" name=""> Migrations</font></div>
+				<hr class="my-[10px]">
+				<div class="my-[10px] text-3xl">Subject</div>
+				<div class="my-[10px]"><input class="w-[880px] h-[40px] border-2 px-[20px] rounded-lg" type="text" name="sub" placeholder="Enter Subject Here"></div>
+				<hr class="my-[10px]">
+				<div class="text-3xl">Attachment : </div>
+				<hr class="my-[10px]">
+				<div class="my-[10px] text-3xl">Messege Body</div>
+				<div class="my-[10px]"><input class="w-[880px] h-[100px] border-2 px-[20px] rounded-lg" type="text" name="sub" placeholder="Enter Email Body"></div>
+				<div><button class="w-[200px] h-[40px] rounded-lg bg-blue-400 text-2xl text-white font-bold">Send Email</button></div>
+			</div>
+		</div>
+</section>
+
+{% endblock %}
